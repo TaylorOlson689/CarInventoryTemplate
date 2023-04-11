@@ -48,7 +48,7 @@ namespace CarInventory
         private void removeButton_Click(object sender, EventArgs e)
         {
             foreach (Car c in cars)
-            {
+            { 
                 if (c.make == makeInput.Text)
                 {
                     cars.Remove(c);
